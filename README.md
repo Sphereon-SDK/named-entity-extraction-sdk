@@ -1,13 +1,10 @@
-# Easy blockchain SDK
+# Named Entity Extraction SDK
 
 ## Introduction
 
-Welcome to the easy blockchain SDK. This SDK allows you to integrate blockchain technology into your own product, without having to worry about the low level details of blockchain or cryptocurrencies.
-Several use cases exist for this blockchain SDK. The simplest being a Proof of Existence: Prove that a certain object existed somewhere in time and prove that the same object hasn't been changed since. Of course more advanced implementations are possible like Proof of Processing for instance.
+Welcome to the named entity extraction SDK. This SDK allows you to extract named entities from texts. .
 
-For documentation please see: https://docs.sphereon.com/api/easy-blockchain/0.10/html
-
-See also our website for more information: https://sphereon.com/products/blockchain-api
+For documentation please see: https://docs.sphereon.com/api/named-entity-extraction/0.1/html
 
 
 ## Available SDKs
@@ -17,10 +14,10 @@ The SDK currently supports the folowing languages:
  * [Java - Okhttp - gson](java8-okhttp-gson)
  * [C# .NET](csharp-net45)
  * [Javascript](javascript)
+ * [Swift4](swift4)
+ * [PHP](php)
  
 SDKs for the following languages will follow soon:
- * PHP
- * Swift3
  * Python
  * Perl
  * Android
