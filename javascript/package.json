@@ -1,0 +1,21 @@
+{
+  "name": "name_entity_extraction",
+  "version": "0.1",
+  "description": "The_Name_Entity_Extraction_API_allows_you_to_extract_name_entities_from_text__Name_entities_can_be_extracted_from_text_file_or_stream_location__With_each_extracted_name_entity_a_type_of_entity_and_a_probability_will_be_given_The_flow_is_generally_as_follows1__Create_an_extraction_job__If_no_settings_are_provided_default_settings_are_used_2__Upload_content_for_extraction_3__Start_the_extraction_job_3__Get_the_result_when_the_extraction_is_completed_Full_API_Documentation_httpsdocs_sphereon_comapiextractionnameentity0_1htmlInteractive_testing_A_web_based_test_console_is_available_in_the_Sphereon_API_Store_at_httpsstore_sphereon_com",
+  "license": "Unlicense",
+  "main": "src/SphereonSDKExtractionNamedEntity/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
