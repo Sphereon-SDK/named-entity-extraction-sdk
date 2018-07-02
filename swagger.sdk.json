@@ -195,10 +195,10 @@
       "tags": ["NamedEntityExtraction"]
     }}
   },
-  "host": "gw-dev.api.cloud.sphereon.com",
+  "host": "gw.api.cloud.sphereon.com",
   "schemes": ["https"],
   "securityDefinitions": {"oauth2schema": {
-    "tokenUrl": "https://gw-dev.api.cloud.sphereon.com/token",
+    "tokenUrl": "https://gw.api.cloud.sphereon.com/token",
     "scopes": {"global": "accessEverything"},
     "type": "oauth2",
     "flow": "application"

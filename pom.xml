@@ -12,7 +12,7 @@
         <company-name>Sphereon BV</company-name>
         <sdk-package>com.sphereon.sdk.extraction.name.entity</sdk-package>
         <sdk-package-javascript>SphereonSDKExtractionNamedEntity</sdk-package-javascript>
-        <sdk-package-csharp>Sphereon.SDK.Extraction.Name.Entity</sdk-package-csharp>
+        <sdk-package-csharp>Sphereon.SDK.Extraction.Named.Entity</sdk-package-csharp>
 		<sdk-package-version>0.1.0</sdk-package-version>
 
         <swagger-codegen-maven-plugin.version>2.2.3</swagger-codegen-maven-plugin.version>
@@ -100,9 +100,6 @@
                                 <configuration>
                                     <inputSpec>swagger.sdk.json</inputSpec>
                                     <language>java</language>
-									<templateDirectory>
-										${basedir}/src/main/mustacheTemplates/okhttp-gson
-									</templateDirectory>
                                     <configOptions>
                                         <dateLibrary>java8</dateLibrary>
                                     </configOptions>
